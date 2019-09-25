@@ -1,0 +1,55 @@
+header {
+	background-color: #9ce5da; /* sea-green */
+	position: relative;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	
+}
+
+header img {
+	max-width: 260px;
+	height: auto;
+	margin: 20px;
+	border: 10px solid white;
+	border-radius: 100%;
+}
+
+#description {
+	color: white;
+	display: inline-block;
+	max-width: 75%;
+	margin: auto;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 50px;
+	font-variant: small-caps;
+}
+
+header h2 {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.square-div {
+	position: relative;
+	text-align: center;
+	height: 250px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.square-pic {
+	width: auto;
+	height: 100%;
+}
+
+.square-pic:hover {
+	border: 4px solid yellow;
+}
+
+
+
+

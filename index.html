@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Jessica Ho
+EMAIL: hojd1@uci.edu
+-->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Jessica Ho">	
+	<meta name="description" content="Information about me">
+	<!-- you would also link to Bootstrap here! -->
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+	<!-- you would link to an external stylesheet here! -->
+	<link rel="stylesheet" href="./style.css"> 
+	<title>Jessica's Portfolio</title>
+</head>
+
+<body>
+	<header>
+		<img src="images/profile-pic-2.jpg" alt="portrait of Jessica as her profile picture">
+		<div id="description">
+			<h1>Pleased to meet you </h1>
+			<h2>My name is Jessica, and I am searching for software development opportunities! </h2>
+			<h6>I am also interested in web development, and would love opportunities to grow in that field as well.</h6>
+			
+		</div>
+	</header>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-4 square-div" id="experiences">
+				<img class="square-pic" src="images/uci-maskot.jpg" alt="clipart of UCI mascot" onClick="openExperiences()">
+				<p> Experience </p>
+			</div>
+			
+			<div class="col-xs-12 col-md-4 square-div" id="projects">
+				<img class="square-pic" src="images/coding.jpg" alt="aesthetic image of code" onClick="openProjects()">
+				<p> Projects </p>
+			</div>
+			
+			<div class="col-xs-12 col-md-4 square-div" id="interests">
+				<img class="square-pic" src="images/food.jpg" alt="aesthetic brunch food" onClick="openInterests()">
+				<p> Interests </p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="openPages.js"></script>
+</body>
+</html>

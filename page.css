@@ -1,0 +1,109 @@
+header {
+	text-align: center;
+	width: 100%;
+	min-height: 100px;
+	/* background-color: #9ce5da; */
+	padding: 20px;
+	border-bottom: 2px solid #eff0f2;
+}
+
+audio {
+	width: 200px;
+}
+
+.back-button {
+	width: 100px;
+	height: 30px;
+	background-color: #cfcfd3;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.back-button:hover {
+	background-color: #9ce5da;
+}
+
+.row {
+	position: relative;
+	min-height: 350px;
+	width: 100%;
+	margin: 20px;
+}
+
+.row:hover {
+	background-color: #e8e9ed;
+}
+
+.row img {
+	height: 350px;
+	width: auto;
+}
+
+.row .text {
+	padding: 20px;
+	width: 60%;
+	min-width: 350px;
+	/*background-color: #eff0f2;*/
+}
+
+#fixed-media {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 250px;
+	height: 100px;
+	border: 2px solid #eff0f2; /* light gray */
+	/*background-color: #9ce5da;*/
+	/*color: white;*/
+	text-align: center;
+	font-size: 12px;
+	padding: 5px;
+	z-index: 2;
+}
+
+#fixed-media:hover {
+	border: 2px solid #9ce5da; /* sea-green border */
+	background-color: white;
+}
+
+#college-text {
+	font-size: 20px;
+}
+
+.mainpanel-text {
+	padding: 30px;
+	max-width: 750px;
+	margin-left: 20%;
+}
+
+.mainpanel-text h2 {
+	padding-top: 20px;
+	border-top: 4px solid #9ce5da; 
+}
+
+.mainpanel-text ul {
+	margin-left: 20px;
+}
+
+.experience-entry {
+	margin-left: 40px;
+	border-bottom: 2px solid #eff0f2;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+.second-bullet li {
+	font-size: 14px;
+	font-style: italic;
+	color: #7e8f91;
+}
+
+.second-bullet li:last-child {
+	margin-bottom: 5px;
+}
+
+p>i {
+	color: #7e8f91;
+}
+
